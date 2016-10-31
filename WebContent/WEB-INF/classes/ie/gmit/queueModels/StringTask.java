@@ -1,7 +1,10 @@
-package ie.gmit.sw;
+package ie.gmit.queueModels;
 
+//Class used an an element for the queue, holds the strings for comparison, algorithm and task id.
+//So we will have in queues of StringTask objects.
 public class StringTask {
 
+	//Instance variables
 	private String taskNumber;
 	private String algo;
 	private String str1;
@@ -49,7 +52,8 @@ public class StringTask {
 	}
 
 	//Used if we need to compare two objects. Any custom classes (StringTask) used in custom queue should have
-	//ways of comparing them. May not always be needed but good practice.
+	//ways of comparing them. May not always be needed but good practice. Could also override cloneable but not
+	//necessary for this program. Just doing this stuff to show I'm listening. ;)
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
