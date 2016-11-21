@@ -43,7 +43,7 @@ ie.gmit.sw - Lastly this package contains one class which is the RMI server.
 
 The comparator.war file
 -----------------------
-This is the deploment file to be ran on a tomcat server and contains all the source code of the application.
+This is the deployment file to be ran on a tomcat server and contains all the source code of the application.
 
 The string-service.jar
 ----------------------
@@ -53,7 +53,7 @@ RUNNING THE APPPLICATION
 ------------------------
 Now....to the fun stuff. ;) Lets run this thing. The instuctions are simple and as follows:
 
-1. Navigate to the directory that the string-service.jar file is located in and run the following command in the terminal: java –cp ./string-service.jar ie.gmit.sw.Servant
+1. Navigate to the directory that the string-service.jar file is located in and run the following command in the terminal: java â€“cp ./string-service.jar ie.gmit.sw.Servant
    The RMI server is now running.
 2. Install a Tomcat server if you dont already have one (preferably at least v8.0) ...then start it up. 
 3. Navigate to localhost:8080 in your browser
